@@ -33,7 +33,7 @@ defmodule Dilute.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ecto, "~> 2.0"},
+      {:ecto, "~> 3.0"},
       {:absinthe, "~> 1.4"},
       {:ex_doc, "~> 0.19", only: :dev},
       {:mariaex, ">= 0.0.0", only: :test}
